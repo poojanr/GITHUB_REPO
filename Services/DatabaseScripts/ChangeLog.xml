@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+ <!--    <preConditions>
+        <runningAs username="postgres"/>
+    </preConditions>
+-->
+	<changeSet author="eCAB_DB_Admin_Liquibase" id="1">
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DDL_Scripts/eCAB_DDL_Scripts_v0.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DML_Scripts/eCAB_DML_Scripts_v0.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>			
+    <rollback>
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DML_Scripts/eCAB_DML_Rollback_Scripts_v0.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DDL_Scripts/eCAB_DDL_Rollback_Scripts_v0.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>
+    </rollback>
+    </changeSet>
+	
+	<changeSet author="eCAB_DB_Admin_Liquibase" id="2">
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DML_Scripts/eCAB_DML_Scripts_v1.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>
+    <rollback>
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DML_Scripts/eCAB_DML_Rollback_Scripts_v1.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>		
+    </rollback>
+    </changeSet>
+	
+	<changeSet author="eCAB_DB_Admin_Liquibase" id="3">
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DML_Scripts/eCAB_DML_Scripts_v2.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>
+    <rollback>
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DML_Scripts/eCAB_DML_Rollback_Scripts_v2.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>			
+    </rollback>
+    </changeSet>
+
+	<changeSet author="eCAB_DB_Admin_Liquibase" id="4">
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DML_Scripts/eCAB_DML_Scripts_v3.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>
+    <rollback>
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DML_Scripts/eCAB_DML_Rollback_Scripts_v3.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>		
+    </rollback>
+    </changeSet>
+
+	<changeSet author="eCAB_DB_Admin_Liquibase" id="5">
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DDL_Scripts/eCAB_DDL_Scripts_v1.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DML_Scripts/eCAB_DML_Scripts_v4.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>	
+    <rollback>
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DML_Scripts/eCAB_DML_Rollback_Scripts_v4.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>		
+    <sqlFile dbms="postgresql"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="DDL_Scripts/eCAB_DDL_Rollback_Scripts_v1.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>		
+    </rollback>
+    </changeSet>
+	
+</databaseChangeLog>
