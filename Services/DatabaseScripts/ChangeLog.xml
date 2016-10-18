@@ -134,6 +134,4 @@
             stripComments="true"/>		
     </rollback>
     </changeSet>
-	<changeset author="eCAB_DB_Admin_Liquibase" id="6">
-	</changeset>
 </databaseChangeLog>
