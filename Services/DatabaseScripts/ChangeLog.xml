@@ -10,6 +10,7 @@
  <!--    <preConditions>
         <runningAs username="postgres"/>
     </preConditions>
+	<added comment>
 	
 -->
 	<changeSet author="eCAB_DB_Admin_Liquibase" id="1">
