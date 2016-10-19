@@ -1,0 +1,593 @@
+.title
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: #000000;
+	FONT-SIZE: 100%;
+	TEXT-ALIGN: left;
+	VERTICAL-ALIGN: top;
+}
+.subTitle
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: #000000;
+	FONT-SIZE: 90%;
+	TEXT-ALIGN: left;
+	VERTICAL-ALIGN: top;
+}
+.subTitle2
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: #cc0000;
+	FONT-SIZE: 80%;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: top;
+}
+.subTitle1
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: #000000;
+	FONT-SIZE: 90%;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: top;
+}
+.text
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: #000000;
+	FONT-SIZE: 90%;
+	font-weight: bold;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: top;
+}
+.text1
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: #cc0000;
+	FONT-SIZE: 90%;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: top;
+}
+.para
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: #000000;
+	FONT-SIZE: 90%;
+	VERTICAL-ALIGN: top;
+}
+.paraBold
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: #000000;
+	FONT-SIZE: 90%;
+	FONT-WEIGHT: bold;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: top;
+}
+.title1
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: #0066cc;
+	FONT-SIZE: 100%;
+	TEXT-ALIGN: left;
+	VERTICAL-ALIGN: top;
+}
+.textsize
+{
+	FONT-SIZE: 90%;
+}
+HTML
+{
+	HEIGHT: 100%;
+}
+BODY
+{
+	HEIGHT: 100%;
+}
+DIV#padding
+{
+	PADDING-BOTTOM: 2%;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px;
+}
+DIV#pad
+{
+	PADDING-BOTTOM: 2%;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px;
+}
+DIV#container
+{
+	HEIGHT: 99.5%;
+	MIN-HEIGHT: 99.5%;
+}
+.sarfooter
+{
+	BACKGROUND-COLOR: #0066cc;
+	CLEAR: both;
+	COLOR: #ffffff;
+	FONT-SIZE: 80%;
+	HEIGHT: auto;
+	MARGIN: -1.5% 0px 0px;
+	MIN-HEIGHT: 3%;
+	TEXT-ALIGN: center;
+	WIDTH: 100%;
+}
+.tablestyleMainScreen
+{
+	BACKGROUND-COLOR: #0033ff;
+	WIDTH: 100%;
+}
+.tablestyleMainScreen1
+{
+	TEXT-ALIGN: center;
+	WIDTH: 100%;
+}
+.displayType
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM-COLOR: #cc0000;
+	TEXT-ALIGN: center;
+}
+.table50
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM-COLOR: #b9c7e7;
+	FONT-SIZE: 95%;
+	TEXT-ALIGN: left;
+	WIDTH: 50%;
+}
+.table40
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM-COLOR: #b9c7e7;
+	FONT-SIZE: 95%;
+	TEXT-ALIGN: right;
+	WIDTH: 50%;
+}
+.table41
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM-COLOR: #b9c7e7;
+	FONT-SIZE: 95%;
+	TEXT-ALIGN: center;
+	WIDTH: 50%;
+}
+.table25
+{
+	FONT-SIZE: 95%;
+	TEXT-ALIGN: right;
+	WIDTH: 25%;
+}
+.table75
+{
+	FONT-SIZE: 95%;
+	TEXT-ALIGN: left;
+	WIDTH: 75%;
+}
+.table
+{
+	WIDTH: 100%;
+}
+.label
+{
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 0.95em;
+	FONT-WEIGHT: normal;
+	LINE-HEIGHT: 1.2em;
+	VERTICAL-ALIGN: top;
+}
+
+.otherLabel
+{
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 0.9em;
+	FONT-WEIGHT: normal;
+	LINE-HEIGHT: 1.2em;
+	VERTICAL-ALIGN: top;
+}
+.disLabel
+{
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 0.9em;
+	FONT-WEIGHT: normal;
+	LINE-HEIGHT: 1.2em;
+	TEXT-ALIGN: right;
+	VERTICAL-ALIGN: top;
+}
+.buttonLinkUnderline
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-RIGHT: medium none;
+	BORDER-TOP: medium none;
+	COLOR: #0066cc;
+	CURSOR: pointer;
+	CURSOR: hand;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 90%;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: underline;
+	VERTICAL-ALIGN: middle;
+}
+.buttonLinkUnderline1
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-RIGHT: medium none;
+	BORDER-TOP: medium none;
+	COLOR: #0066cc;
+	CURSOR: pointer;
+	CURSOR: hand;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 90%;
+	TEXT-ALIGN: right;
+	TEXT-DECORATION: underline;
+	VERTICAL-ALIGN: middle;
+}
+.trBlue
+{
+	BACKGROUND-COLOR: #0066cc;
+	COLOR: white;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 95%;
+	FONT-WEIGHT: bold;
+	VERTICAL-ALIGN: middle;
+}
+.grid
+{
+	BACKGROUND-COLOR: #0066cc;
+	WIDTH: 100%;
+}
+.display
+{
+	COLOR: #666666;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 80%;
+	FONT-WEIGHT: bold;
+}
+.error
+{
+	COLOR: #cc0000;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 0.9em;
+	FONT-WEIGHT: normal;
+	TEXT-ALIGN: center;
+}
+.errormessage1
+{
+	COLOR: #cc0000;
+	FONT-SIZE: 100%;
+	FONT-WEIGHT: bold;
+	PADDING-LEFT: 10%;
+	WIDTH: 100%;
+}
+.sarheader
+{
+	BACKGROUND-COLOR: #0066cc;
+	BACKGROUND-POSITION: left top;
+	HEIGHT: 10%;
+	WIDTH: 100%;
+}
+
+.sarbodyErr
+{
+	HEIGHT: 467px;
+	OVERFLOW: auto;
+	POSITION: relative;
+}
+.sarpage
+{
+	HEIGHT: 100%;
+}
+#topmenu P
+{
+	BACKGROUND-COLOR: #ccc;
+	BORDER-BOTTOM: #06c 1px solid;
+	BORDER-RIGHT: #06c 1px solid;
+	COLOR: #000000;
+	FONT-SIZE: 70%;
+	FONT-WEIGHT: bold;
+	LEFT: 0%;
+	MARGIN: 0px;
+	PADDING-BOTTOM: 1%;
+	PADDING-LEFT: 1%;
+	PADDING-RIGHT: 1%;
+	PADDING-TOP: 1%;
+	POSITION: absolute;
+	TOP: 0%;
+}
+BODY
+{
+	FONT-FAMILY: Arial;
+	MARGIN: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px;
+}
+#topmenu P A
+{
+	COLOR: #0066cc;
+	PADDING-RIGHT: 2%;
+}
+#topmenu P A.leftbar
+{
+	BACKGROUND: url(../images/top-separator.gif) #ccc no-repeat left center;
+	PADDING-LEFT: 10px;
+}
+#logo
+{
+	FLOAT: right;
+	MARGIN-LEFT: 10px;
+	MARGIN-RIGHT: 10px;
+	MARGIN-TOP: 10px;
+	PADDING-BOTTOM: 1%;
+}
+.menubutton
+{
+	BACKGROUND: url(../images/top-separator.gif) #ccc no-repeat left center;
+	BORDER-BOTTOM: white 0px solid;
+	BORDER-LEFT: white 0px solid;
+	BORDER-RIGHT: white 0px solid;
+	BORDER-TOP: white 0px solid;
+	COLOR: #000000;
+	CURSOR: pointer;
+	CURSOR: hand;
+	FONT-SIZE: 1.02em;
+	FONT-WEIGHT: bold;
+	MARGIN: 0px;
+	PADDING-LEFT: 10px;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: underline;
+}
+.size1
+{
+	WIDTH: 112px;
+}
+.size2
+{
+	WIDTH: 40px;
+}
+.labelHidden
+{
+	LEFT: -900px;
+	POSITION: absolute;
+}
+.errorheadertext
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: red;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+}
+.errortext
+{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: red;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 12px;
+}
+.buttondiv
+{
+	POSITION: relative;
+	TEXT-ALIGN: center;
+	TOP: 10px;
+	WIDTH: 100%;
+}
+.required
+{
+	COLOR: #000000;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 80%;
+	TEXT-ALIGN: right;
+}
+.asterisk
+{
+	FONT-WEIGHT: bold;
+	COLOR:#0000aa;
+	FONT-SIZE:100%;
+}
+
+.requiredMessage
+{
+	TEXT-ALIGN: right;
+}
+.mandatoryBack
+{
+	TEXT-ALIGN: right;
+}
+
+.tableGridSearch1
+{
+	TEXT-ALIGN: left;
+	WIDTH: 10%;
+}
+.pagerButton
+{
+	BACKGROUND-COLOR: #0066cc;
+	BORDER-BOTTOM: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-RIGHT: medium none;
+	BORDER-TOP: medium none;
+	COLOR: #ffffff;
+	CURSOR: pointer;
+	CURSOR: hand;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 100%;
+	FONT-WEIGHT: bold;
+	TEXT-ALIGN: center;
+	TEXT-DECORATION: underline;
+	VERTICAL-ALIGN: middle;
+}
+.pagerSelectedStyle
+{
+	BORDER-BOTTOM: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-RIGHT: medium none;
+	BORDER-TOP: medium none;
+	COLOR: #FFFF00;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 100%;
+	FONT-WEIGHT: bold;
+	VERTICAL-ALIGN: middle;
+	MARGIN-LEFT: 1px;
+	MARGIN-RIGHT: 1px;
+}
+.pagerStyle
+{
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 95%;
+	FONT-WEIGHT: bold;
+}
+.pagerlabel
+{
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 95%;
+	FONT-WEIGHT: bold;
+}
+.tablestyleSiteMap
+{
+	MARGIN-LEFT: 6%;
+	WIDTH: 20%;
+}
+.siteMap
+{
+	MARGIN-LEFT: 6%;
+	TEXT-ALIGN: left;
+}
+.buttonLinkUnderlineSiteMap
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-RIGHT: medium none;
+	BORDER-TOP: medium none;
+	COLOR: #0099ff;
+	CURSOR: pointer;
+	CURSOR: hand;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 90%;
+	TEXT-ALIGN: left;
+	VERTICAL-ALIGN: middle;
+	WIDTH: auto;
+}
+.gridItemLink
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM-COLOR: #b9c7e7;
+	COLOR: #0099ff;
+	CURSOR: pointer;
+	CURSOR: hand;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 90%;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: underline;
+	VERTICAL-ALIGN: middle;
+}
+.gridItem
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM-COLOR: #b9c7e7;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 90%;
+	PADDING-TOP: 0%;
+	TEXT-ALIGN: left;
+	VERTICAL-ALIGN: middle;
+}
+
+.gridItem1
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM-COLOR: #0066cc;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 90%;
+	PADDING-TOP: 0%;
+	TEXT-ALIGN: left;
+	VERTICAL-ALIGN: middle;
+}
+
+.submitType
+{
+	FONT-SIZE: 90%;
+	TEXT-ALIGN: center;
+}
+.square
+{
+	BACKGROUND-COLOR: #0f0;
+	DISPLAY: block;
+	HEIGHT: 10px;
+	WIDTH: 10px;
+}
+.tablestyleRequestor
+{
+	MARGIN-LEFT: 35%;
+}
+.buttonLinkUnderline2
+{
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-RIGHT: medium none;
+	BORDER-TOP: medium none;
+	COLOR: #0099ff;
+	CURSOR: pointer;
+	CURSOR: hand;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 90%;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: underline;
+	VERTICAL-ALIGN: middle;
+	WIDTH: auto;
+}
+.about
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.noRecordsStyle
+{
+	color: white;
+	text-align: center;
+}
+
+UL {
+	margin-left: 6px;
+	list-style-type: none;
+}
+.list1
+{
+	list-style-type: none;
+	margin-left: 6px;
+}
+.list1undeline
+{
+	list-style-type: none;
+	margin-left: 6px;
+	text-decoration: underline;
+}
+
+.list2
+{
+	list-style-type: disc;
+	margin-left: 40px;
+}
+.list2Leftpad 
+{
+	list-style-type: none;
+	margin-left: 12px;
+}
+.text {
+	text-align: center;
+	vertical-align: middle;
+	font-weight: normal;
+}
