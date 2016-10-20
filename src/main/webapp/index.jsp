@@ -14,7 +14,7 @@
 	<br/>
 	<br/>
 	<div>
-		<h1>Welcome to the HSCIC World</h1>
+		<h1>Welcome to the NHS Digital World</h1>
 	</div>
 </body>
 </html>
